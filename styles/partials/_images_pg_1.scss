@@ -1,0 +1,23 @@
+#a_brand_new_sky {
+    width: 40vw;
+}
+
+#red_planet {
+        width: 150px;
+        height: 150px;
+}
+
+#the_sun {
+    width: 200px;
+    height: 200px;
+}
+
+#base {
+    width: 90%;
+    height: 90%;
+    @media (min-width: 800px) {
+        width: 70%;
+        height: 70%;
+    }
+}
+

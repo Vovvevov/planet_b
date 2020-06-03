@@ -1,0 +1,191 @@
+.aligning_div_1_in_article_pg_2 {
+    width: 350px;
+    max-width: 70vw;
+    text-align: left;
+}
+
+.aligning_div_what_to_do_there_pg_2 {
+    width: 70vw;
+    text-align: left;
+    @media (min-width: 800px) {
+        width: 30vw;
+    }
+}
+
+.aligning_div_is_this_trip_pg_2 {
+    width: calc(280px + 15vw);
+    max-width: 70vw;
+    text-align: left;
+}
+
+.section_faq {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f1f1f1;
+    h3 {
+        font-size: 36px;
+        color: #2c4f80;
+        text-align: center;
+        font-weight: bold;
+        @media (min-width: 800px){
+            text-align: left;
+        }
+    }
+    h4 {
+        font-size: 24px;
+        color: #e32700;
+    }
+}
+
+.div_w_grid_faq {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    @media (min-width: 800px){
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr 2fr;
+        grid-gap: 3vw;
+    }
+}
+
+.div_w_h4_p_and_ul_is_this_trip_risky {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    ul {
+        padding: 18px;
+    }
+}
+
+.article_why_on_earth {
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    margin: 10vw;
+    box-shadow: 0 2px 4px 0 rgba(201, 201, 201, 0.5);
+    h4 {
+        margin: 20px;
+    }
+    p {
+        margin: 20px;
+    }
+    @media (min-width: 800px){
+        margin: 0;
+    }
+}
+
+.article_is_this_trip_risky {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    margin: 10vw;
+    box-shadow: 0 2px 4px 0 rgba(201, 201, 201, 0.5);
+    li {
+        padding: 0;
+        margin: 0;
+    }
+    @media (min-width: 800px){
+        margin: 0;
+    }
+}
+
+.article_what_to_do_there {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    margin: 10vw;
+    box-shadow: 0 2px 4px 0 rgba(201, 201, 201, 0.5);
+    h4 {
+        margin: 20px;
+    }
+    p {
+        margin: 20px;
+    }
+    @media (min-width: 800px){
+        flex-direction: row-reverse;
+        margin: 0;
+    }
+}
+
+.div_w_img_in_article_what_to_do_there {
+    width: 50vw;
+    @media (min-width: 800px) {
+        width: 20vw;
+    }
+}
+
+.article_how_long {
+    grid-column: span 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: white;
+    box-shadow: 0 2px 4px 0 rgba(201, 201, 201, 0.5);
+    @media (min-width: 800px){
+        flex-direction: row;
+        margin: 0;
+    }
+}
+
+.div_w_img_in_article_in_section_how_long {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    background-image: radial-gradient(#072142, #00132c);
+    @media (min-width: 800px) {
+        height: 300px;
+        width: 350px;
+    }
+}
+
+.div_wrapper_planet {
+    height: 30%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    @media (min-width: 800px) {
+        width: 60%
+    }
+}
+
+.div_wrapper_planets {
+    height: 60%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    @media (min-width: 800px) {
+        width: 50%;
+    }
+}
+
+.div_w_h3_and_p_how_long {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aligning_div_2_in_article_pg_2 {
+    width: 70vw;
+    text-align: left;
+}

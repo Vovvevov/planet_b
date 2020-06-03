@@ -1,0 +1,40 @@
+.section_join_us {
+    background-color: #f1f1f1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.div_w_h3_and_paragraph_pg_3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90vw;
+    @media (min-width: 600px) {
+        width: 40vw;
+    }
+    h3 {
+        font-size: 36px;
+        color: #e32700;
+        text-align: center;
+    }
+    p {
+        font-size: 24px;
+        color: #2c4f80;
+        text-align: center;
+    }
+}
+
+.outer_div_for_form {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.inner_div_for_form {
+    background-color: white;
+    box-shadow: 0 2px 4px 0 rgba(201, 201, 201, 0.5);
+    width: 90%;
+    margin-bottom: 80px;
+}

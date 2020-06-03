@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+}
+
+main {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+button {
+    width: 100px;
+    height: 30px;
+    font-size: 14px;
+    color: #2c4f80;
+    border-radius: 10px;
+    border: solid 1px #2c4f80;
+    margin: 20px;
+}
+
+.img_logo {
+    height: 40px;
+    width: 60px;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    margin-top: 10px;
+    @media (min-width: 600px) {
+        margin-top: 0;
+    } 
+}
+
+.current_page {
+    border-bottom: #e32700 solid 2px;
+}

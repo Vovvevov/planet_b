@@ -1,0 +1,186 @@
+.article_a_brand_new_sky{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    h3 {
+        font-size: 36px;
+        color: #e32700;
+        margin: 5vw;
+    }
+    p {
+        font-size: 18px;
+        color: #323232;
+        margin: 5vw;
+    }
+    @media (min-width: 950px) {
+        flex-direction: row;
+        justify-content: center;
+    }
+}
+
+span {
+    color: #e32700;
+}
+
+.div_w_h3_and_paragraph_a_brand_new_sky {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.aligning_div_a_brand_new_sky {
+    width: 80vw;
+    @media (min-width: 800px) {
+        width: 50vw;
+    }
+}
+
+.aligning_div_in_article_pg_1 {
+    width: 80vw;
+    @media (min-width: 800px){
+        width: 30vw;
+        text-align: left;
+    }
+}
+
+.section_be_the_earths_closest {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f1f1f1;
+    h3 {
+        font-size: 36px;
+        font-weight: bold;
+        color: #2c4f80;
+        text-align: center;
+        margin: 5vw;
+        @media (min-width: 800px){
+            text-align: left;
+        }
+    }
+    h4 {
+        font-size: 24px;
+        color: #e32700;
+        margin: 5vw;
+    }
+}
+
+.div_w_h1_be_the_earths_closest {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div_w_grid_be_the_earths_closest {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    @media (min-width: 800px){
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 2fr 1fr;
+        grid-gap: 3vw;
+    }
+}
+
+.article_why_mars {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    margin: 10vw;
+    box-shadow: 0 2px 4px 0 rgba(201, 201, 201, 0.5);
+    @media (min-width: 800px){
+        flex-direction: row;
+        margin: 0;
+    }
+}
+
+.div_w_img_in_article_be_the_earths {
+    @include flex-horiz-align-two_dim;
+    margin: 20px;
+}
+
+.div_w_h3_p_and_btn_why_mars {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    h3 {
+        margin: 5vw;
+    }
+    p {
+        margin: 5vw;
+    }
+}
+
+.article_sustainable_sun {
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    margin: 10vw;
+    box-shadow: 0 2px 4px 0 rgba(201, 201, 201, 0.5);
+    @media (min-width: 800px){
+        margin: 0;
+    }
+}
+
+.div_w_h3_p_and_btn_sustainable_sun {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    h3 {
+        margin: 5vw;
+    }
+    p {
+        margin: 5vw;
+    }
+}
+
+.article_just_move_in {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    margin: 10vw;
+    box-shadow: 0 2px 4px 0 rgba(201, 201, 201, 0.5);
+    @media (min-width: 800px){
+        flex-direction: row;
+        margin: 0;
+    }
+}
+
+.div_w_h3_p_and_btn_just_move_in {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    h3 {
+        margin: 5vw;
+    }
+    p {
+        margin: 5vw;
+    }
+}
+
+.div_w_btn_pg_1 {
+    display: flex;
+    justify-content: center;
+}
